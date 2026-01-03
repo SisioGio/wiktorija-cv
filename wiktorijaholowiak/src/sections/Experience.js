@@ -1,6 +1,19 @@
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
 const previousJobs = [
+      {
+    role: "Sales Associate",
+    company: "Luxottica Germany (Ray-Ban), Munich",
+    period: "04/2024—Present",
+    highlights: [
+      "Achieved over €1M in sales within 4 months of store opening",
+      "Provided top-tier customer service to a diverse, multilingual clientele",
+      "Leveraged fluency in English, Polish, Ukrainian, and Russian to assist tourists",
+      "Managed visual merchandising and product displays to drive sales",
+      "Built strong customer relationships, ensuring repeat business",
+    ],
+  },
+  
   {
     role: "Office Assistant",
     company: "HYCOM S.A, Warsaw",

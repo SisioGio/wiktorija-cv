@@ -37,8 +37,24 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
       >
-        <a href="/WiktorijaCV.pdf" className="px-6 py-3 bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full text-white font-semibold hover:scale-105 transition-transform">Download CV</a>
-        <a href="mailto:w.z.holowiak@gmail.com" className="px-6 py-3 border border-white rounded-full hover:bg-white hover:text-black transition">Contact Me</a>
+        {/* <a href="/WiktorijaCV.pdf" className="px-6 py-3 bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full text-white font-semibold hover:scale-105 transition-transform">Download CV</a>
+       */}
+     <a
+  href="mailto:w.z.holowiak@gmail.com"
+  className="
+    relative inline-block px-10 py-4 font-bold text-black 
+    bg-gradient-to-r from-cyan-400 to-blue-500
+    rounded-3xl shadow-2xl overflow-hidden
+    transform transition-all duration-300 hover:scale-110 hover:brightness-125
+    before:absolute before:inset-0 before:rounded-3xl before:bg-white/20 before:blur-2xl before:opacity-50 before:pointer-events-none
+    after:absolute after:top-0 after:left-1/2 after:w-0 after:h-0.5 after:bg-white/50 after:rounded-full after:opacity-0 after:transition-all after:duration-500
+    hover:after:w-full hover:after:left-0 hover:after:opacity-100
+    animate-bounce-slow
+  "
+>
+  Contact Me
+</a>
+      
       </motion.div>
     </section>
   );
