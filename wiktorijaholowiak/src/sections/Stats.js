@@ -14,7 +14,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <section className="relative max-w-7xl mx-auto px-6 -mt-24 z-20">
+    <section className="relative max-w-7xl mx-auto px-6  z-20">
       
       {/* Floating Background Blobs */}
       <div className="absolute -top-20 -left-20 w-60 h-60 bg-cyan-400/20 rounded-full blur-3xl animate-blob"></div>

@@ -8,18 +8,19 @@ export default function Hero() {
       <div className="absolute -top-40 -left-40 w-96 h-96 bg-cyan-400/30 rounded-full blur-3xl"></div>
       <div className="absolute top-1/3 -right-40 w-[30rem] h-[30rem] bg-blue-500/20 rounded-full blur-3xl"></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        {/* TEXT */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9 }}
-          className="text-center md:text-left"
-        >
-          <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-white/10 border border-white/20 text-sm text-cyan-300">
+      <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<span className="mt-6 inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-white/10 border border-white/20 text-sm text-cyan-300">
             <Sparkles size={16} />
             Customer Experience • Retail • People
           </span>
+        {/* TEXT */}
+       <motion.div
+  initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.9 }}
+  className="text-center md:text-left order-2 md:order-1"
+>
+          
 
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
             Hi, I’m{" "}
@@ -74,11 +75,11 @@ export default function Hero() {
 
         {/* PHOTO */}
         <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1 }}
-          className="relative flex justify-center"
-        >
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1 }}
+  className="relative flex justify-center order-1 md:order-2"
+>
           <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full blur-2xl opacity-70"></div>
 
           <img
