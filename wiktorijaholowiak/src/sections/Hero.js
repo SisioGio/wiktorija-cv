@@ -26,9 +26,9 @@ export default function Hero() {
   passionate about <span className="text-pink-400 font-semibold">connecting with people</span>.  
   Currently in <span className="text-purple-300 font-semibold">Munich</span> but moving to  
   <span className="text-yellow-300 font-semibold"> Barcelona in February 2026</span>,  
-  looking for <span className="text-green-300 font-semibold">dynamic opportunities</span> in  
-  <span className="text-cyan-400 font-semibold">customer service</span> and  
-  <span className="text-purple-300 font-semibold">store management</span>.
+  looking for <span className="text-green-300 font-semibold">dynamic opportunities</span> in   
+  <span className="text-cyan-400 font-semibold"> customer service</span> and  
+  <span className="text-purple-300 font-semibold"> store management</span>.
 </motion.p>
 
       <motion.div 
