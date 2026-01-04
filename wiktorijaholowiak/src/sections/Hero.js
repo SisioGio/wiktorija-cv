@@ -18,7 +18,7 @@ export default function Hero() {
             transition={{ duration: 0.9 }}
             className="text-center lg:text-left order-1"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-white/10 border border-white/20 text-sm text-cyan-300">
+            <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-white/10 border border-white/20 text-sm text-cyan-300 mt-6">
               <Sparkles size={16} />
               Customer Experience • Retail • People
             </span>
