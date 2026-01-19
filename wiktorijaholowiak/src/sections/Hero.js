@@ -34,8 +34,8 @@ export default function Hero() {
               </span>
             </h1>
 
-             {/* PHOTO COLUMN */}
-          <motion.div
+      
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
@@ -47,7 +47,33 @@ export default function Hero() {
               alt="Wiktorija Holowiak"
               className="mx-auto relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-white/30 shadow-2xl"
             />
-          </motion.div>
+          </motion.div> */}
+
+          <motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1 }}
+  className="block lg:hidden  relative justify-end order-2 mb-24"
+>
+  {/* Glow */}
+  <div className="absolute w-[440px] h-[440px] bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full blur-xl opacity-40" />
+
+  {/* Avatar */}
+  <img
+    src="avatar.png"
+    alt="Wiktorija Holowiak"
+    className="
+      relative
+      w-80 h-80
+      xl:w-96 xl:h-96
+      rounded-full
+      object-cover
+      border-[10px]
+      border-white/30
+      shadow-2xl
+    "
+  />
+</motion.div>
 
             <p className="text-lg md:text-xl text-gray-300 max-w-xl mb-8 mx-auto lg:mx-0">
               Outgoing, positive, and passionate about people.
@@ -83,19 +109,31 @@ export default function Hero() {
           </motion.div>
 
           {/* PHOTO COLUMN */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1 }}
-            className="hidden lg:block lg:flex relative flex justify-center lg:justify-end order-2 mb-56"
-          >
-            <div className="absolute w-80 h-80 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full blur-2xl opacity-70" />
-            <img
-              src="OIP.webp"
-              alt="Wiktorija Holowiak"
-              className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-white/30 shadow-2xl"
-            />
-          </motion.div>
+         <motion.div
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1 }}
+  className="hidden lg:flex relative justify-end order-2 mb-56"
+>
+  {/* Glow */}
+  <div className="absolute w-[520px] h-[520px] bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-full blur-3xl opacity-70" />
+
+  {/* Avatar */}
+  <img
+    src="avatar.png"
+    alt="Wiktorija Holowiak"
+    className="
+      relative
+      w-80 h-80
+      xl:w-96 xl:h-96
+      rounded-full
+      object-cover
+      border-[10px]
+      border-white/30
+      shadow-2xl
+    "
+  />
+</motion.div>
 
         </div>
       </div>
